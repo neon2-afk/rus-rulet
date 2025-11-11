@@ -1,14 +1,14 @@
-# One-Chance Number Guess (Eğlenceli Oyun)
+# One-Chance Number Guess (Fun Game)
 
-Bu repo, tek şansla 1-6 arasında bir sayı tahmin etmeye dayanan basit ve şaka amaçlı bir Python oyunu içerir. Kod, sağlanan orijinal komutlar korunarak eklendi.
+This repository contains a simple, joke Python game where you have one chance to guess a number between 1 and 6. The original code and commands were preserved exactly as provided.
 
-Kullanım:
-1. Python 3 yüklü olmalı.
-2. Terminal/komut istemcisinde:
+Usage:
+1. Python 3 must be installed.
+2. In your terminal/command prompt, run:
    - python game.py
-3. Başlangıç mesajında ENTER tuşuna basarak oyunu başlat.
-4. Tek bir tahmin hakkınız var (1-6).
+3. Press ENTER at the start prompt to begin the game.
+4. You get a single guess (1-6).
 
-Not: Oyun metninde "sistemin silinecek" gibi ifadeler şaka amaçlıdır — gerçek bir etkiye sahip değildir.
+Note: The game includes humorous text claiming the system will be erased if you lose — this is a joke and has no real effect.
 
 ---
