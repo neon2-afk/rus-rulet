@@ -9,6 +9,6 @@ Usage:
 3. Press ENTER at the start prompt to begin the game.
 4. You get a single guess (1-6).
 
-Note: The game includes humorous text claiming the system will be erased if you lose — this is a joke and has no real effect.
+Note: The game includes humorous text claiming the system will be erased if you lose — 
 
 ---
